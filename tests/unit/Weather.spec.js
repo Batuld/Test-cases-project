@@ -32,19 +32,26 @@ describe('weather test', () => {
         expect(wrapper.findAll('p').at(4).text()).toMatch('High (Today): 0° F')
         expect(wrapper.findAll('p').at(5).text()).toMatch('Low (Today): 0° F')
     })
-    it('processes valid props data', async () => {
-        // Update the props passed in to the Weather component
-        wrapper.setProps({
-            city: 'Chicago',
-            weatherSummary: 'Cloudy',
-            weatherDescription: 'Cloudy with a chance of rain',
-            currentTemperature: 45.1,
-            lowTemperature: 42.0,
-            highTemperature: 47.7
-        })
+    //upadte props data
+    // it('processes valid props data', async () => {
 
+    //     wrapper.setProps({
+    //         city: 'Chicago',
+    //         weatherSummary: 'Cloudy',
+    //         weatherDescription: 'Cloudy with a chance of rain',
+    //         currentTemperature: 45.1,
+    //         lowTemperature: 42.0,
+    //         highTemperature: 47.7
+    //     })
 
-        expect(wrapper.vm.city).toMatch('Chicago')
+    //     expect(wrapper.vm.city).toMatch('Chicago')
+
+    // })
+    it('emitms event when click', () => {
+        wrapper.findAll('button').at(0).trigger('click')
+
+        expect(wrapper.emitted('clear-weather-data')).toBeTruthy()
+        expect(wrapper.emitted('clear-weather-data').length).toBe(1)
 
     })
 })

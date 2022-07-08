@@ -70,7 +70,7 @@ export default {
           // handle success
           // this.messageType = 'Success'
           // this.messageToDisplay = 'SUCCESS! Weather data was retrieved for ' + response.data.name + '!'
-          console.log(response)
+          console.log(response, "response")
 
           this.weatherData.city = response.data.name
           this.weatherData.weatherSummary = response.data.weather[0].main
