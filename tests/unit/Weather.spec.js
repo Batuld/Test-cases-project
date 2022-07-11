@@ -17,9 +17,6 @@ describe('weather test', () => {
             }
         })
     })
-    // afterEach(() => {
-    //     wrapper.destroy()
-    // })
     it('initializes correct element', () => {
         expect(wrapper.vm.$options.name).toMatch('Weather')
         expect(wrapper.findAll('h2').length).toEqual(2)
@@ -33,6 +30,7 @@ describe('weather test', () => {
         expect(wrapper.findAll('p').at(5).text()).toMatch('Low (Today): 0° F')
     })
     //upadte props data
+
     // it('processes valid props data', async () => {
 
     //     wrapper.setProps({
@@ -47,7 +45,7 @@ describe('weather test', () => {
     //     expect(wrapper.vm.city).toMatch('Chicago')
 
     // })
-    it('emitms event when click', () => {
+    it('emits event when click', () => {
         wrapper.findAll('button').at(0).trigger('click')
 
         expect(wrapper.emitted('clear-weather-data')).toBeTruthy()

@@ -5,7 +5,7 @@
         </div>
         <div class="weather-search-input">
             <label for="cityInput">City:</label>
-            <input type="text" id="cityInput" v-model="inputCity" placeholder="Enter a city name...">
+            <input type="text" id="cityInput" v-model="inputCity" placeholder="Enter a city name..." >
             <br>
             <div class="weather-search-buttons">
                 <button type="submit" v-on:click="searchCity" v-bind:disabled="searchDisabled">Search</button>
@@ -51,10 +51,7 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-/* Weather Search Styling
-*************************/
 .weather-search {
     margin: auto;
 }

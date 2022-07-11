@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657287706036" clover="3.2.0">
-  <project timestamp="1657287706036" name="All files">
-    <metrics statements="51" coveredstatements="13" conditionals="10" coveredconditionals="0" methods="16" coveredmethods="1" elements="77" coveredelements="14" complexity="0" loc="51" ncloc="51" packages="2" files="6" classes="6"/>
+<coverage generated="1657545910762" clover="3.2.0">
+  <project timestamp="1657545910762" name="All files">
+    <metrics statements="51" coveredstatements="46" conditionals="10" coveredconditionals="9" methods="16" coveredmethods="14" elements="77" coveredelements="69" complexity="0" loc="51" ncloc="51" packages="2" files="6" classes="6"/>
     <package name="src">
-      <metrics statements="30" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <metrics statements="30" coveredstatements="26" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="7"/>
       <file name="App.vue" path="/var/www/testcases-project/src/App.vue">
-        <metrics statements="30" coveredstatements="7" conditionals="2" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <metrics statements="30" coveredstatements="26" conditionals="2" coveredconditionals="1" methods="8" coveredmethods="7"/>
         <line num="14" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
@@ -13,41 +13,41 @@
         <line num="18" count="1" type="stmt"/>
         <line num="19" count="1" type="stmt"/>
         <line num="21" count="1" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="59" count="3" type="cond" truecount="1" falsecount="1"/>
         <line num="60" count="0" type="stmt"/>
         <line num="61" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="68" count="0" type="stmt"/>
-        <line num="73" count="0" type="stmt"/>
-        <line num="75" count="0" type="stmt"/>
-        <line num="76" count="0" type="stmt"/>
-        <line num="77" count="0" type="stmt"/>
-        <line num="78" count="0" type="stmt"/>
-        <line num="79" count="0" type="stmt"/>
-        <line num="80" count="0" type="stmt"/>
-        <line num="81" count="0" type="stmt"/>
-        <line num="85" count="0" type="stmt"/>
-        <line num="86" count="0" type="stmt"/>
-        <line num="87" count="0" type="stmt"/>
-        <line num="88" count="0" type="stmt"/>
-        <line num="92" count="0" type="stmt"/>
-        <line num="96" count="0" type="stmt"/>
-        <line num="104" count="0" type="stmt"/>
+        <line num="67" count="2" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="79" count="1" type="stmt"/>
+        <line num="80" count="1" type="stmt"/>
+        <line num="81" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="86" count="1" type="stmt"/>
+        <line num="87" count="1" type="stmt"/>
+        <line num="88" count="1" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="96" count="1" type="stmt"/>
+        <line num="104" count="1" type="stmt"/>
         <line num="107" count="0" type="stmt"/>
         <line num="108" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components">
-      <metrics statements="21" coveredstatements="6" conditionals="8" coveredconditionals="0" methods="8" coveredmethods="1"/>
+      <metrics statements="21" coveredstatements="20" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="7"/>
       <file name="Banner.vue" path="/var/www/testcases-project/src/components/Banner.vue">
-        <metrics statements="7" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="20" count="0" type="stmt"/>
-        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
+        <metrics statements="7" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="1"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="19" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
         <line num="30" count="0" type="stmt"/>
       </file>
       <file name="Footer.vue" path="/var/www/testcases-project/src/components/Footer.vue">
@@ -59,17 +59,17 @@
         <line num="8" count="2" type="stmt"/>
       </file>
       <file name="Search.vue" path="/var/www/testcases-project/src/components/Search.vue">
-        <metrics statements="10" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="32" count="0" type="stmt"/>
-        <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="44" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="47" count="0" type="stmt"/>
+        <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="5" coveredmethods="5"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="37" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="44" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
       </file>
       <file name="Weather.vue" path="/var/www/testcases-project/src/components/Weather.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>

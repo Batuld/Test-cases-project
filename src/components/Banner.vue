@@ -9,9 +9,9 @@
 export default {
     name: 'Banner',
     props: {
-        // Message to display on banner
+       
         bannerMessage: String,
-        // Banner Types: Info, Error, or Success
+       
         bannerType: String
     },
     computed: {
