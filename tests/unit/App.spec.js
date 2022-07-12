@@ -93,13 +93,21 @@ describe('Implementation Test for App.vue with Failed HTTP GET', () => {
 
     })
 
-    it('when api is not loaded', () => {
-        wrapper.created('5b59d0f6dbbe87dd97035b964b2b1677')
-        expect(axios.get).toBeCalledWith(expect.stringMatching(/5b59d0f6dbbe87dd97035b964b2b1677/))
+    // it('when api is not loaded', () => {
+    //     wrapper.vm.openweathermapApiKey = 'Error! API Key needs to be loaded to use openweathermap.org!'
+    //     wrapper.vm.searchCity()
+
+    //     // expect(wrapper.vm.openweathermapApiKey).toBeCalledWith(expect.stringMatching(/5b59d0f6dbbe87dd97035b964b2b1677/))
 
 
-        // expect(wrapper.vm.messageToDisplay).toMatch('Error! API Key needs to be loaded to use openweathermap.org!')
-        // expect(wrapper.vm.messageType).toMatch('Error')
+    //     expect(wrapper.vm.messageToDisplay).toMatch('Error! API Key needs to be loaded to use openweathermap.org!')
+    //     // expect(wrapper.vm.messageType).toMatch('Error')
+    // })
+
+    it('clears the banner message', () => {
+        wrapper.vm.messageToDisplay = 'clears msg success'
+        wrapper.vm.clearMessage()
+        expect(wrapper.vm.messageToDisplay).toMatch(/^$/)
     })
 
 })
