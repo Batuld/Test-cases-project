@@ -16,5 +16,9 @@ export default {
 <style scoped>
 footer {
     margin: auto;
+    /* margin: 10px; */
+    justify-content: center;
+        display: flex;
+        padding: 8px;
 }
 </style>

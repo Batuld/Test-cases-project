@@ -8,7 +8,7 @@
 export default {
     name: 'Header',
     props: {
-        title: String
+        title: String,
     }
 }
 </script>
@@ -16,7 +16,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 header {
-    margin: auto;
+    /* margin: auto; */
+    margin: 15px;
+        justify-content: center;
+            display: flex;
 }
 
 header h1 {

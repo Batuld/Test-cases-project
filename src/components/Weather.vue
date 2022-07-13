@@ -58,12 +58,14 @@ export default {
 .weather-results-container {
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;  
 }
 
 .weather-results-data {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+        justify-content: center;
+        padding: 35px;
 }
 
 .weather-results-summary,
